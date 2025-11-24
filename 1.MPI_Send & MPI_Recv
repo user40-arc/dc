@@ -20,3 +20,11 @@ int main(int argc, char *argv[]) {
     MPI_Finalize(); // End MPI
     return 0;
 }
+
+
+#sudo apt update
+#sudo apt install mpich gcc
+#mkdir dc_lab
+#cd dc_lab
+#nano mpi_send_recv.c
+#mpicc mpi_send_recv.c -o mpi_send_recv
