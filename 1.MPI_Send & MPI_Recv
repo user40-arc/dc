@@ -28,3 +28,5 @@ int main(int argc, char *argv[]) {
 #cd dc_lab
 #nano mpi_send_recv.c
 #mpicc mpi_send_recv.c -o mpi_send_recv
+#mpirun -np 2 ./mpi_send_recv
+
